@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 50px;
+}
+
+
+.button1 {
+    background-color: pink;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+    width: 150px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+
+}
+
+.button1:hover {
+    opacity: 1;
+}
+
+.name {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    border-style: double;
+    margin: 20px 20px; 
+}
+
+.col {
+    flex-basis: 50%;
+    margin-left: 15%;
+}
+
+h1 {
+    color: pink;
+    font-size: 100px;
+}
+
+p {
+    color: pink;
+    font-size: 15px;
+    /* line-height: 15px; */
+}
+
+
+.image {
+    display: block;
+    border-radius: 10px;
+    padding: 12px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    display: block;
+    /* margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px; */
+} 
+
+
+h2 {
+    color: pink;
+}
+
+
+h4 {
+    color: pink;
+    border: solid white;
+}
+
